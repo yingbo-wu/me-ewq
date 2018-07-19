@@ -5,6 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 import cn.rongcapital.mc2.me.commons.infrastructure.ignite.IgniteEntity;
 import cn.rongcapital.mc2.me.ewq.domain.FieldName;
 
+@SuppressWarnings("serial")
 public class CampaignMessage extends IgniteEntity {
 
 	@Field(FieldName.FIELD_NODE_ID)
